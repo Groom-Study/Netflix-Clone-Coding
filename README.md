@@ -1,27 +1,41 @@
-# ☁️ Groom Deep Dive Fullstack 19th - Team 3: NOT NULL
+🎬 Netflix Clone Project (React & TypeScript)
+이 프로젝트는 React와 TypeScript를 활용하여 넷플릭스의 핵심 UI와 사용자 경험을 재현한 프론트엔드 클론 코딩 프로젝트입니다. 실제 에셋 데이터를 효율적으로 관리하고, CSS Grid와 Styled-components를 사용하여 반응형 레이아웃을 구현하는 데 집중했습니다.
 
-> **"비어있지 않은 열정, 반드시 결과를 만드는 NOT NULL"**
+🛠 Tech Stack
+Language: TypeScript (v5.x)
 
-## 📋 팀 미션: 유튜브 목업 구현
-강의 "따라하며 배우는 HTML CSS"에서 우리는 HTML, CSS 에 대해서 배웠습니다. 그리고 타입스크립트, DOM, 리액트의 기초에 대해서 다양한 강의를 통해 배웠습니다. 강의에서 배운 React, HTML, CSS를 이용해서 넷플릭스 사이트를 만들어 보겠습니다.
+Library: React (v18.x)
 
-(습득 역량) ● React 기반 웹 개발 ● Next.js 라우팅 및 SSR 구현(선택) ● Typescript 활용 ● 도커(Docker)를 활용한 배포 ● AWS 환경 이해 및 활용
+Styling: Styled-components
 
-(결과물) ● 전체 애플리케이션 기획 문서 및 아키텍처 ● AWS에 배포된 결과물 레포 주소 ● 발표 자료 및 발표 영상
----
+Build Tool: Vite
 
-## 👥 팀원 및 작업 현황 (Branch)
-아래의 팀원 이름을 클릭하시면 각자의 작업 브랜치로 이동하여 코드를 확인하실 수 있습니다.
+Version Control: Git / GitHub
 
-| 이름 | 담당 미션 | 작업 브랜치 (Link) | 상태 |
-| :--- | :--- | :--- | :--- |
-| **배윤상** | 유튜브 | [feature/yoonsang_FullStack19](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/feature/yoonsang) | ✅ 완료 |
-| **지연우** | 유튜브 | [feature/yeonwoo](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/feature/yeonwoo) |  |
-| **엄효선** | 유튜브 | [feature/hsyeom](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/feature/hsyeom) |  |
+📺 핵심 구현 기능
+1. 효율적인 에셋 및 데이터 관리
+Type-Safe Data: Movie 인터페이스를 정의하여 데이터 구조를 엄격하게 관리하고, import type 문법을 사용해 TypeScript의 verbatimModuleSyntax 에러를 해결했습니다.
 
+Asset Indexing: 18개의 드라마 포스터 이미지를 한곳에서 관리하는 인덱스 파일을 구축하여 유지보수성을 높였습니다.
 
----
+2. 정교한 UI/UX 구현
+Responsive Grid Layout: 가로 스크롤 방식이 아닌, 한 줄에 정확히 6개씩 배치되는 그리드 시스템을 구축하여 실제 서비스와 유사한 시각적 안정감을 주었습니다.
 
-## 🛠 Tech Stack
-- **Frontend**: TypeScript,JavaScript,React,HTML,CSS, 
-- **Collaboration**: Git, GitHub (Branch Strategy)
+Sticky Header: 스크롤 이벤트를 감지하여 배경색이 투명에서 검은색으로 부드럽게 변하는 네비게이션 바를 구현했습니다.
+
+Interactive Hover Effect: 콘텐츠 카드에 마우스를 올릴 때 transform: scale()을 활용한 확대 애니메이션을 적용했습니다.
+
+3. 프로젝트 아키텍처
+Plaintext
+src/
+ ├── assets/          # 18개의 드라마 포스터 및 로고 에셋
+ ├── components/      # Header, MovieRow, Footer 공통 컴포넌트
+ ├── data/            # 중앙 집중식 영화 데이터 및 타입 정의
+ └── App.tsx          # 메인 레이아웃 및 섹션 구성
+💡 개발 과정의 기술적 도전
+컴파일러 최적화: verbatimModuleSyntax 설정으로 인한 타입 임포트 에러를 해결하며 TypeScript의 모듈 시스템에 대한 이해도를 높였습니다.
+
+형상 관리 최적화: .gitignore 설정을 통해 node_modules 및 개인 설정 폴더(MINI-PROJECT/)를 Git 추적에서 제외하여 저장소 용량을 최적화하고 보안을 강화했습니다.
+
+## 📺 주요 구현 기능
+![Main Screenshot](방금_얻은_이미지_주소)
