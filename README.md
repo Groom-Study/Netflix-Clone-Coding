@@ -5,9 +5,9 @@
 ---
 
 ## 📸 결과물 스크린샷
-![Main Screen](<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/a985dcac-200e-4470-87e4-3ca64fa39bc0" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/eb94db84-9ee8-4867-a36c-ec9c7df53676" />
+<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/a985dcac-200e-4470-87e4-3ca64fa39bc0" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/eb94db84-9ee8-4867-a36c-ec9c7df53676" />
 
-)
+
 
 ---
 
