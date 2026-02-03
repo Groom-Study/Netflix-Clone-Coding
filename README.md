@@ -23,5 +23,5 @@
 ---
 
 ## 🛠 Tech Stack
-- **Frontend**: TypeScript,JavaScript,React,HTML,CSS, 
+- **Frontend**: TypeScript, JavaScript, React, HTML, CSS 
 - **Collaboration**: Git, GitHub (Branch Strategy)
