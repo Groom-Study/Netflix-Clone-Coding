@@ -1,37 +1,36 @@
-🎬 Netflix Clone Project (React & TypeScript)
-이 프로젝트는 React와 TypeScript를 활용하여 넷플릭스의 핵심 UI와 사용자 경험을 재현한 프론트엔드 클론 코딩 프로젝트입니다. 실제 에셋 데이터를 효율적으로 관리하고, CSS Grid와 Styled-components를 사용하여 반응형 레이아웃을 구현하는 데 집중했습니다.
+# 🎬 Netflix Clone Project (React & TypeScript)
 
-🛠 Tech Stack
-Language: TypeScript (v5.x)
+이 프로젝트는 React와 TypeScript를 활용하여 넷플릭스의 핵심 UI와 사용자 경험을 재현한 프론트엔드 프로젝트입니다.
 
-Library: React (v18.x)
+---
 
-Styling: Styled-components
+## 📸 결과물 스크린샷
+![Main Screen](여기에_이미지_주소_복사)
 
-Build Tool: Vite
+---
 
-Version Control: Git / GitHub
+## 🚀 핵심 구현 기능
 
-📺 핵심 구현 기능
-1. 효율적인 에셋 및 데이터 관리
-Type-Safe Data: Movie 인터페이스를 정의하여 데이터 구조를 엄격하게 관리하고, import type 문법을 사용해 TypeScript의 verbatimModuleSyntax 에러를 해결했습니다.
+### 1. 효율적인 에셋 및 데이터 관리
+* **Type-Safe Data**: `Movie` 인터페이스 정의를 통한 데이터 구조의 엄격한 관리
+* **컴파일러 최적화**: `import type` 문법을 사용하여 TypeScript의 `verbatimModuleSyntax` 에러 완벽 해결
+* **Asset Indexing**: 18개의 드라마 포스터 이미지를 중앙에서 관리하는 인덱스 시스템 구축
 
-Asset Indexing: 18개의 드라마 포스터 이미지를 한곳에서 관리하는 인덱스 파일을 구축하여 유지보수성을 높였습니다.
+### 2. 정교한 UI/UX 구현
+* **Responsive Grid Layout**: 가로 스크롤 대신 한 줄에 6개씩 배치되는 정교한 그리드 시스템 (CSS Grid)
+* **Sticky Header**: 스크롤 감지를 통해 투명도와 배경색이 부드럽게 변하는 네비게이션 바
+* **Interactive Animation**: 콘텐츠 호버 시 `transform: scale()`을 이용한 시각적 피드백 제공
 
-2. 정교한 UI/UX 구현
-Responsive Grid Layout: 가로 스크롤 방식이 아닌, 한 줄에 정확히 6개씩 배치되는 그리드 시스템을 구축하여 실제 서비스와 유사한 시각적 안정감을 주었습니다.
+---
 
-Sticky Header: 스크롤 이벤트를 감지하여 배경색이 투명에서 검은색으로 부드럽게 변하는 네비게이션 바를 구현했습니다.
-
-Interactive Hover Effect: 콘텐츠 카드에 마우스를 올릴 때 transform: scale()을 활용한 확대 애니메이션을 적용했습니다.
-
-3. 프로젝트 아키텍처
-Plaintext
+## 📂 프로젝트 아키텍처
+```plaintext
 src/
- ├── assets/          # 18개의 드라마 포스터 및 로고 에셋
- ├── components/      # Header, MovieRow, Footer 공통 컴포넌트
- ├── data/            # 중앙 집중식 영화 데이터 및 타입 정의
- └── App.tsx          # 메인 레이아웃 및 섹션 구성
+ ├── assets/      # 18개의 드라마 포스터 및 로고 에셋
+ ├── components/  # Header, MovieRow, Footer 공통 컴포넌트
+ ├── data/        # 중앙 집중식 영화 데이터 및 타입 정의
+ └── App.tsx      # 메인 레이아웃 및 섹션 구성
+
 💡 개발 과정의 기술적 도전
 컴파일러 최적화: verbatimModuleSyntax 설정으로 인한 타입 임포트 에러를 해결하며 TypeScript의 모듈 시스템에 대한 이해도를 높였습니다.
 
