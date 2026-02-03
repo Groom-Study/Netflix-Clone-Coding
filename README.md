@@ -16,7 +16,7 @@
 | 이름 | 담당 미션 | 작업 브랜치 (Link) | 상태 |
 | :--- | :--- | :--- | :--- |
 | **배윤상** | 유튜브 | [feature/yoonsang](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/yoonsang?tab=readme-ov-file) | ✅ 완료 |
-| **지연우** | 유튜브 | [feature/yeonwoo](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/feature/yeonwoo) |  |
+| **지연우** | 유튜브 | [feature/yeonwoo](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/yeonwoo) | ✅ 완료 |
 | **엄효선** | 유튜브 | [feature/hsyeom](https://github.com/Groom-Study/Netflix-Clone-Coding/tree/feature/hsyeom) |  |
 
 
