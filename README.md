@@ -5,7 +5,9 @@
 ---
 
 ## 📸 결과물 스크린샷
-![Main Screen](여기에_이미지_주소_복사)
+![Main Screen](<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/a985dcac-200e-4470-87e4-3ca64fa39bc0" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/eb94db84-9ee8-4867-a36c-ec9c7df53676" />
+
+)
 
 ---
 
@@ -35,7 +37,3 @@ src/
 컴파일러 최적화: verbatimModuleSyntax 설정으로 인한 타입 임포트 에러를 해결하며 TypeScript의 모듈 시스템에 대한 이해도를 높였습니다.
 
 형상 관리 최적화: .gitignore 설정을 통해 node_modules 및 개인 설정 폴더(MINI-PROJECT/)를 Git 추적에서 제외하여 저장소 용량을 최적화하고 보안을 강화했습니다.
-
-## 📺 주요 구현 기능 스크린샷
-<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/297ab8fc-f95f-481b-a233-82d2f517eb3b" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/28f10700-5060-44f3-8d74-df258ce0bc61" />
-
