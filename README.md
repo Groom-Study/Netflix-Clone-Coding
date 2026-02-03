@@ -38,5 +38,5 @@ src/
 형상 관리 최적화: .gitignore 설정을 통해 node_modules 및 개인 설정 폴더(MINI-PROJECT/)를 Git 추적에서 제외하여 저장소 용량을 최적화하고 보안을 강화했습니다.
 
 ## 📺 주요 구현 기능 스크린샷
-![Main Screenshot]<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/297ab8fc-f95f-481b-a233-82d2f517eb3b" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/28f10700-5060-44f3-8d74-df258ce0bc61" />
+<img width="1892" height="984" alt="스크린샷 2026-02-03 152832" src="https://github.com/user-attachments/assets/297ab8fc-f95f-481b-a233-82d2f517eb3b" /><img width="1888" height="634" alt="스크린샷 2026-02-03 152839" src="https://github.com/user-attachments/assets/28f10700-5060-44f3-8d74-df258ce0bc61" />
 
